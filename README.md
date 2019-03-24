@@ -21,4 +21,5 @@ baselines.py Logistic Regression
 # 结果
 
 # Todo
-LDA
+- LDA  
+- word2vec
