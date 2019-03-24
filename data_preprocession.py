@@ -80,8 +80,10 @@ fp = open('/Users/zhangzhaopeng/统计学习/机器学习/Text_Classification/da
 pickle.dump(data, fp)
 fp.close()        
         
-        
-        
+data_all = (x, y, x_train, x_test, y_train, y_test)       
+fp = open('/Users/zhangzhaopeng/统计学习/机器学习/Text_Classification/data_all.pkl', 'wb')
+pickle.dump(data_all, fp)
+fp.close()         
         
         
         
