@@ -18,7 +18,7 @@ fp.close()
 
 from keras.preprocessing.text import Tokenizer
 # 特征词数
-vocab_size=5000
+vocab_size=4000
 tokenizer = Tokenizer(num_words=vocab_size)
 tokenizer.fit_on_texts(x_train)
 X_train = tokenizer.texts_to_sequences(x_train)
