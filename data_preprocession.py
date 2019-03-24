@@ -11,6 +11,7 @@ phrase_douban = []
 label_douban = []
 with open("/Users/zhangzhaopeng/统计学习/机器学习/heihei/SpiderResult_renmin.csv", encoding='gbk') as file:
     douban = csv.reader(file)
+    next(douban, None)
     
     for row in douban:
         if row[3] == "Null":
@@ -20,5 +21,5 @@ with open("/Users/zhangzhaopeng/统计学习/机器学习/heihei/SpiderResult_re
         phrase_douban.append(row[1])
         label_douban.append(row[3])
         
-label_douban.remove(label_douban[0])        
-phrase_douban.remove(phrase_douban[0])
+
+
