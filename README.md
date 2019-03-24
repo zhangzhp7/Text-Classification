@@ -13,6 +13,7 @@
 data_preprocession.py 数据预处理  
 lstm.py  LSTM方法实现文本分类  
 fasttext.py  FastText方法  
+cnn.py CNN方法
 features.py 特征选择：包括tf-idf,卡方统计量, LDA  
 naive_bayes.py 朴素贝叶斯分类器  
 baselines.py Logistic Regression  
